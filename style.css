@@ -1,0 +1,96 @@
+
+
+/* Colors: Text (#343538) Background (#efefef) Highlight (#F18F01)*/
+
+nav{
+  margin: 50px;
+  text-align: center;
+}
+
+nav a{
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #343538;
+}
+
+nav a:hover {
+  color: tomato;
+}
+
+body {
+  background-color: #efefef;
+  font-size: 16px;
+}
+
+.content-main {
+  margin: 400px auto;
+}
+
+.secondary-btn {
+  font-size: 50px;
+  text-decoration: none;
+  color: #343538;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #efefef;
+}
+
+.secondary-btn:hover {
+  color: #F18F01;
+}
+
+.body-text {
+  margin: 20px 20px 20px 20px;
+  width: 80vw;
+}
+
+.default-btn {
+  margin: 40px 20px 20px 20px;
+  background-color: #efefef;
+  padding: 15px 30px 15px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #343538;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: -5px -5px 10px #ffffff, 5px 5px 5px #d9d9d9;
+}
+
+.default-btn:hover{
+  box-shadow: inset 5px 5px 10px #d9d9d9;
+}
+
+
+/* Products Page */
+
+.about-section {
+  margin: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside {
+  width: 50%;
+  display: flex;
+  background-color: tomato;
+  justify-content: center;
+}
+
+#profile-pic {
+  max-width: 19em;
+}
+
+.about-description {
+  margin: 4em;
+}
+
+
+
+
+
+
+
+
+
+/* This is the end of the page. */
